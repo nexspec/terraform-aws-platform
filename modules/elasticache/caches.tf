@@ -2,7 +2,7 @@ resource "aws_elasticache_cluster" "services" {
   cluster_id           = "gm-${var.platform_instance_id}"
   engine               = "redis"
   // engine_version       = "3.2.10"
-  engine_version       = "7.0.7"
+  engine_version       = "7.1"
   node_type            = "${var.instance_type_services}"
   port                 = 6379
   num_cache_nodes      = 1
