@@ -7,7 +7,7 @@ variable "ecs_amis" {
     "eu-west-1"      = "ami-0519597426b6c8505"
     "us-east-1"      = "ami-0d302d90ec5c6ee0d"
     "us-east-2"      = "ami-033c3e639530c0199"
-    "us-west-2"      = "ami-0537adba13a20eb24"
+    "us-west-2"      = "ami-07408cddd73f2caf8"
   }
 }
 
